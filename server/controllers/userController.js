@@ -1,9 +1,7 @@
 import User from "../models/User.js"
 import jwt from 'jsonwebtoken'
 import bcrypt from "bcryptjs"
-
-import { Chat } from "openai/resources/index.mjs"
-import { Messages } from "openai/resources/chat/completions.mjs"
+import Chat from "../models/Chat.js"
 
 // generate jwt token
 
